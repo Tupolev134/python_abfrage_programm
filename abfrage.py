@@ -2,11 +2,6 @@
 import random
 
 # ----------------- Software Engineering Klausurvorbereitung -----------------
-'''
-question_number = int()
-correct = int()
-false = int()
-'''
 l_o_q = []
 l_o_cat = []
 
@@ -116,6 +111,7 @@ network_architectures = [
     ("fully-non-blocking Merkmale", "Keine Kollisionen da jede Prozessoreinheit direkt mit jeder anderen verbunden ist"),
     ("fully-non-blocking Netzwerke Beispiele", "torus, fat-tree"),
 ]
+# Hinzufügen der Fragen und der Kategorien
 l_o_q.append(high_performance_computing)
 l_o_cat.append("high performance computing")
 l_o_q.append(flynny_taxonomie)
@@ -193,6 +189,7 @@ def new_round(number_of_questions):
     if int(choice) == 0:
         auswertung_info(answers, num_correct_answers, num_false_answers)
     else:
+        # TODO
         auswertung_info(answers, num_correct_answers, num_false_answers)
         # auswertung_wiederholung(answers, num_correct_answers, num_false_answers)
 
